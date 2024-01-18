@@ -1,0 +1,119 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (uncomment to include)
+# vendor/
+
+# Environment variables and secrets
+.env
+
+# Event store directories
+events/
+
+# IDE and editor folders
+.idea/
+.vs/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Visual Studio Code files
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Session state
+*.session
+Session.vim
+
+# Project files that may contain sensitive information or user-specific configs
+*.csproj
+*.vbproj
+*.vcxproj
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac OS folder attributes
+.AppleDouble
+.LSOverride
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Go specific
+bin/
+pkg/
+*.a
+*.o
+*.p
+
+# Executable programs
+*.bin
+*.run
+*.cmd
+*.bat
+*.com
+
+# Log files and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Editor directories and files
+*.swp
+*~
+*.iml
+*.vscode/
+*.vswp
+*.swo
+
+# Node.js dependencies
+node_modules/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
